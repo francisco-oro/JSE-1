@@ -1,0 +1,40 @@
+Tasks
+
+Task 1
+
+Write a script that will ask the user to input a number. Display the message "Bingo!" when the number is greater than 90 but less than 110, otherwise display the message: "Miss". Use the if statement.
+
+Example
+
+Task 2
+
+Rewrite the code from the previous task, replacing if with a ternary conditional operator.
+
+Example
+
+Task 3
+
+Write a simple calculator application. Ask the user for the following input, one by one: two numbers and a character representing a mathematical operation, one of "+", "-", "*", "/". If the user input is valid, calculate the result and show it to the user. If the user input is invalid, display a message that informs the user that an error has occurred. Remember that the value returned by the prompt function is of the type string. You can use the Number.isNaN method to check if you get the correct number after conversion. For example, calling Number.isNaN(10) will return false, while Number.isNaN(NaN) will return true.
+
+Example
+
+
+LAB
+
+Estimated time
+15-30 minutes
+
+Level of difficulty
+Easy
+
+Objectives
+Familiarize the student with:
+
+conditional execution (what is conditional execution, the if–else statement, the conditional operator, the switch–case statement)
+Scenario
+During the last modification of the program with the contact list, we allow the user to add a new contact with the data entered by the user while the program is executing. Let's go a step further – try to modify the program so that the user has a choice of what they want to do with the list. They will have a choice of:
+
+showing the first contact (first)
+showing the last contact (last)
+adding a new contact (new)
+When adding a new contact, check if the user has entered all the necessary data. If at least one of the three values is missing (name, phone, or email) don't add the contact.
