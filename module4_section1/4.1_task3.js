@@ -1,5 +1,5 @@
 ﻿// Conditional - Tasks: Task 3 
-let result
+let result;
 let number1 = Number(prompt('Input a number:'));
 let number2 = Number(prompt('Input another number:'));
 let operation = prompt('Input an operation to perform on these numbers: ');
